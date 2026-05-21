@@ -1,5 +1,7 @@
 # medicare-claims-ml
 
+![Banner](visuals/dashboards/banner.jpg)
+
 Healthcare machine learning research portfolio focused on predictive modeling using Medicare inpatient claims data for Major Joint Replacement or Reattachment of Lower Extremity (DRG 469/470).
 
 ---
