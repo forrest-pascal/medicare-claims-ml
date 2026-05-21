@@ -39,7 +39,7 @@ The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to de
 
 ## Figure 9. Logistic Regression Results: ROC Curve
 
-![Figure 9](visuals/roc_curves/figure9_logistic_regression_roc_curve.png)
+![Figure 9](visuals/roc_curves/figure9.jpg)
 
 ---
 
@@ -51,37 +51,37 @@ The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to de
 
 ## Figure 18. Predictors Most Involved in Ensemble Boosted Trees Algorithm
 
-![Figure 18](visuals/feature_importance/figure18_ensemble_boosted_trees.png)
+![Figure 18](visuals/feature_importance/figure18.jpg)
 
 ---
 
 ## Figure 21. Predictors Most Involved in LightGBM Algorithm
 
-![Figure 21](visuals/feature_importance/figure21_lightgbm_predictors.png)
+![Figure 21](visuals/feature_importance/figure21.jpg)
 
 ---
 
 ## Figure 22. Predictors Most Involved in XGBoost Algorithm
 
-![Figure 22](visuals/feature_importance/figure22_xgboost_predictors.png)
+![Figure 22](visuals/feature_importance/figure22.jpg)
 
 ---
 
 ## Figure 10. Prevalence of Comorbidities by Gender & DRG
 
-![Figure 10](charts/demographic_analysis/figure10_comorbidities_gender_drg.png)
+![Figure 10](charts/demographic_analysis/figure10.jpg)
 
 ---
 
 ## Figure 13. Age, Race by Average Medicare Claim Payments within Gender
 
-![Figure 13](charts/demographic_analysis/figure13_claim_payments_age_race_gender.png)
+![Figure 13](charts/demographic_analysis/figure13.jpg)
 
 ---
 
 ## Figure 25. Claims with Questionable Risk by State & Race
 
-![Figure 25](charts/risk_visualizations/figure25_risk_by_state_race.png)
+![Figure 25](charts/risk_visualizations/figure25.jpg)
 
 ---
 
@@ -103,3 +103,39 @@ The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to de
 - Physicians, providers, claim payment amounts, admission types, and beneficiary geography showed strong predictive importance
 - Obesity and hypertension were among the most prevalent comorbidities
 - Machine learning models demonstrated strong potential for healthcare surveillance, utilization management, and risk stratification initiatives
+
+---
+
+# Repository Structure
+
+```text
+medicare-claims-ml/
+│
+├── abstract/
+│   └── dissertation_abstract.pdf
+│
+├── charts/
+│   ├── demographic_analysis/
+│   │   ├── figure10.jpg
+│   │   └── figure13.jpg
+│   │
+│   └── risk_visualizations/
+│       └── figure25.jpg
+│
+├── visuals/
+│   ├── roc_curves/
+│   │   └── figure9.jpg
+│   │
+│   ├── feature_importance/
+│   │   ├── figure14.jpg
+│   │   ├── figure18.jpg
+│   │   ├── figure21.jpg
+│   │   └── figure22.jpg
+│   │
+│   └── dashboards/
+│
+├── demo/
+│   └── presentation_video.mp4
+│
+└── docs/
+```
