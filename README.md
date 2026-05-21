@@ -45,7 +45,7 @@ The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to de
 
 ## Figure 14. NCA Feature Selection Analysis
 
-![Figure 14](visuals/feature_importance/figure14.png)
+![Figure 14](visuals/feature_importance/figure14.jpg)
 
 ---
 
