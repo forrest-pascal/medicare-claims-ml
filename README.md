@@ -93,7 +93,7 @@ The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to de
 
 # Demo Video
 
-[Watch Presentation Video](demo/presentation_video.mp4)
+[![Presentation Video](visuals/dashboards/video_thumbnail.png)](https://vimeo.com/309895740)
 
 ---
 
