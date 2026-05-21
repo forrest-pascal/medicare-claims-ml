@@ -35,15 +35,13 @@ The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to de
 
 ---
 
-# Model Evaluation & ROC Analysis
+# Key Visualizations
 
 ## Figure 9. Logistic Regression Results: ROC Curve
 
 ![Figure 9](visuals/roc_curves/figure9_logistic_regression_roc_curve.png)
 
 ---
-
-# Feature Importance & Predictive Modeling
 
 ## Figure 14. NCA Feature Selection Analysis
 
@@ -69,61 +67,9 @@ The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to de
 
 ---
 
-## Figure 23. Predictors Most Involved in Random Forest Algorithm
-
-![Figure 23](visuals/feature_importance/figure23_random_forest_predictors.png)
-
----
-
-# Healthcare Risk Visualizations
-
-## Figure 6. Percentage of Beneficiary Claims with Questionable and Acceptable Risk
-
-![Figure 6](charts/risk_visualizations/figure6_questionable_vs_acceptable_risk.png)
-
----
-
-## Figure 25. Claims with Questionable Risk by State & Race
-
-![Figure 25](charts/risk_visualizations/figure25_risk_by_state_race.png)
-
----
-
-## Figure 34. Results for Type of Admission for novelrisk=0
-
-![Figure 34](charts/risk_visualizations/figure34_type_of_admission_novelrisk0.png)
-
----
-
-## Figure 35. Results for Type of Admission for novelrisk=1
-
-![Figure 35](charts/risk_visualizations/figure35_type_of_admission_novelrisk1.png)
-
----
-
-# Demographic & Population Analysis
-
-## Table 14. Beneficiary Demographics
-
-![Table 14](charts/demographic_analysis/table14_beneficiary_demographics.png)
-
----
-
 ## Figure 10. Prevalence of Comorbidities by Gender & DRG
 
 ![Figure 10](charts/demographic_analysis/figure10_comorbidities_gender_drg.png)
-
----
-
-## Figure 11. Prevalence of Comorbidities by Race
-
-![Figure 11](charts/demographic_analysis/figure11_comorbidities_race.png)
-
----
-
-## Figure 12. Comorbidities by Count
-
-![Figure 12](charts/demographic_analysis/figure12_comorbidities_count.png)
 
 ---
 
@@ -133,59 +79,9 @@ The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to de
 
 ---
 
-## Figure 26. Distribution of Race
+## Figure 25. Claims with Questionable Risk by State & Race
 
-![Figure 26](charts/demographic_analysis/figure26_distribution_race.png)
-
----
-
-## Figure 27. Distribution of Novel Risk for race=unknown
-
-![Figure 27](charts/demographic_analysis/figure27_novelrisk_unknown.png)
-
----
-
-## Figure 28. Distribution of Novel Risk for race=White
-
-![Figure 28](charts/demographic_analysis/figure28_novelrisk_white.png)
-
----
-
-## Figure 29. Distribution of Novel Risk for race=Black
-
-![Figure 29](charts/demographic_analysis/figure29_novelrisk_black.png)
-
----
-
-## Figure 30. Distribution of Novel Risk for race=Other
-
-![Figure 30](charts/demographic_analysis/figure30_novelrisk_other.png)
-
----
-
-## Figure 31. Distribution of Novel Risk for race=Asian
-
-![Figure 31](charts/demographic_analysis/figure31_novelrisk_asian.png)
-
----
-
-## Figure 32. Distribution of Novel Risk for race=Hispanic
-
-![Figure 32](charts/demographic_analysis/figure32_novelrisk_hispanic.png)
-
----
-
-## Figure 33. Distribution of Novel Risk for race=North American Native
-
-![Figure 33](charts/demographic_analysis/figure33_novelrisk_native.png)
-
----
-
-# Dashboard Visualizations
-
-## Tableau Dashboard Visualizations
-
-![Dashboard](visuals/dashboards/tableau_dashboard.png)
+![Figure 25](charts/risk_visualizations/figure25_risk_by_state_race.png)
 
 ---
 
@@ -206,29 +102,4 @@ The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to de
 - Ensemble Boosted Trees demonstrated the strongest predictive performance across training and test datasets
 - Physicians, providers, claim payment amounts, admission types, and beneficiary geography showed strong predictive importance
 - Obesity and hypertension were among the most prevalent comorbidities
-- White female beneficiaries represented the largest patient population and highest aggregate claim costs
 - Machine learning models demonstrated strong potential for healthcare surveillance, utilization management, and risk stratification initiatives
-
----
-
-# Repository Structure
-
-```text
-medicare-claims-ml/
-│
-├── abstract/
-│   └── dissertation_abstract.pdf
-│
-├── charts/
-│   ├── demographic_analysis/
-│   └── risk_visualizations/
-│
-├── visuals/
-│   ├── dashboards/
-│   ├── feature_importance/
-│   └── roc_curves/
-│
-├── demo/
-│   └── presentation_video.mp4
-│
-└── docs/
