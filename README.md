@@ -1,13 +1,13 @@
 # medicare-claims-ml
 
-Healthcare machine learning research focused on predictive modeling using Medicare inpatient claims data.
+Healthcare machine learning research portfolio focused on predictive modeling using Medicare inpatient claims data.
 
 ## Research Areas
-- Predictive Modeling
-- Healthcare Analytics
 - Medicare Claims Analysis
+- Healthcare Analytics
 - Risk Stratification
-- Readmissions & Mortality Analytics
+- Readmissions Analytics
+- Mortality Analytics
 - Machine Learning in Healthcare
 
 ## Repository Contents
