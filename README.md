@@ -37,13 +37,15 @@ The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to de
 
 ---
 
-# Key Visualizations
+# Model Evaluation & Healthcare Analytics
 
 ## Figure 9. Logistic Regression Results: ROC Curve
 
 ![Figure 9](visuals/roc_curves/figure9.jpg)
 
 ---
+
+# Comparative Algorithm Evaluation & Feature Analysis
 
 ## Figure 14. NCA Feature Selection Analysis
 
