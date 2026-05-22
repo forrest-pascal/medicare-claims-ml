@@ -53,6 +53,8 @@ The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to de
 
 ---
 
+# Population & Risk Analytics
+
 ## Figure 18. Predictors Most Involved in Ensemble Boosted Trees Algorithm
 
 ![Figure 18](visuals/feature_importance/figure18.jpg)
