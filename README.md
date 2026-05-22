@@ -79,7 +79,7 @@ The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to de
 
 ---
 
-## Figure 13. Age, Race by Average Medicare Claim Payments within Gender
+## Figure 13. Comparative Medicare Claim Payment Analysis by Demographic Cohorts
 
 ![Figure 13](charts/demographic_analysis/figure13.jpg)
 
