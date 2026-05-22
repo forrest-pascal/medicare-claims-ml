@@ -105,7 +105,7 @@ The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to de
 
 # Key Findings
 
-- Ensemble Boosted Trees demonstrated the strongest predictive performance across training and test datasets
+- Comparative algorithm evaluation identified strong predictive performance across multiple machine learning approaches, including Logistic Regression, Ensemble Boosted Trees, LightGBM, and XGBoost.
 - Physicians, providers, claim payment amounts, admission types, and beneficiary geography showed strong predictive importance
 - Obesity and hypertension were among the most prevalent comorbidities
 - Machine learning models demonstrated strong potential for healthcare surveillance, utilization management, and risk stratification initiatives
