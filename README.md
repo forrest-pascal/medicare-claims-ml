@@ -12,6 +12,8 @@ This research explored predictive modeling approaches using approximately 2.3 mi
 
 The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to develop predictive models, evaluate algorithm performance, visualize healthcare trends, and analyze large-scale Medicare claims data.
 
+The analytical framework and predictive modeling approaches presented in this research may also have relevance to broader Medicare Advantage and healthcare risk-adjustment initiatives, including Hierarchical Condition Category (HCC) analytics, utilization management, and population health risk stratification workflows.
+
 ---
 
 # Technologies
@@ -106,9 +108,9 @@ The research incorporated SAS Enterprise Miner, MATLAB, MLJAR, and Tableau to de
 # Key Findings
 
 - Comparative algorithm evaluation identified strong predictive performance across multiple machine learning approaches, including Logistic Regression, Ensemble Boosted Trees, LightGBM, and XGBoost.
-- Physicians, providers, claim payment amounts, admission types, and beneficiary geography showed strong predictive importance
-- Obesity and hypertension were among the most prevalent comorbidities
-- Machine learning models demonstrated strong potential for healthcare surveillance, utilization management, and risk stratification initiatives
+- Physicians, providers, claim payment amounts, admission types, and beneficiary geography emerged as influential predictors across multiple machine learning models.
+- Obesity and hypertension were among the most frequently observed comorbidities within the analyzed Medicare population.
+- Machine learning models demonstrated potential to support healthcare analytics, utilization management, and risk stratification initiatives.
 
 ---
 
@@ -144,4 +146,4 @@ medicare-claims-ml/
 │   └── presentation_video.mp4
 │
 └── docs/
-```
+```M
